@@ -1,0 +1,23 @@
+columnSuffix: ospzlqlz
+contentColumnType: text
+fieldGroup: 112351b0-7ce3-4c9b-b395-25dc7ec11f14 # Home Page
+handle: ridersIntroContent
+instructions: null
+name: 'Riders Intro Content'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes: '*'
+  ckeConfig: e4b2967f-bfb2-47d0-8d79-fde4928a1800 # Simple
+  columnType: text
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: false
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: true
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

@@ -1,0 +1,19 @@
+columnSuffix: vsyivuhd
+contentColumnType: text
+fieldGroup: bd158d53-0918-4faf-b9a8-5567d986e9b8 # Common
+handle: excerpt
+instructions: null
+name: Excerpt
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 3
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

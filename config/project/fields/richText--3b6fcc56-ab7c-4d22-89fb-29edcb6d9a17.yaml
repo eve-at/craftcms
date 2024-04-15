@@ -1,0 +1,24 @@
+columnSuffix: ykhocvsk
+contentColumnType: text
+fieldGroup: bd158d53-0918-4faf-b9a8-5567d986e9b8 # Common
+handle: richText
+instructions: null
+name: 'Rich Text'
+searchable: false
+settings:
+  availableTransforms: ''
+  availableVolumes:
+    - 3bbb2de8-f0b4-4127-aceb-9e8f03cd70fe # Uploads
+  ckeConfig: e4b2967f-bfb2-47d0-8d79-fde4928a1800 # Simple
+  columnType: text
+  defaultTransform: null
+  enableSourceEditingForNonAdmins: true
+  purifierConfig: null
+  purifyHtml: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  showWordCount: true
+  wordLimit: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\ckeditor\Field

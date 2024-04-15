@@ -1,15 +1,47 @@
-dateModified: 1713171872
+dateModified: 1713178022
 email:
   fromEmail: admin@example.com
   fromName: craftcms
   transportType: craft\mail\transportadapters\Sendmail
+fs:
+  local:
+    hasUrls: true
+    name: Local
+    settings:
+      path: $ASSET_BASE_PATH
+    type: craft\fs\Local
+    url: $ASSET_BASE_URL
 meta:
   __names__:
+    1adba373-a6e0-4d86-8c84-35ff4bef8331: Photos # Photos
+    3b6fcc56-ab7c-4d22-89fb-29edcb6d9a17: 'Rich Text' # Rich Text
+    3bbb2de8-f0b4-4127-aceb-9e8f03cd70fe: Uploads # Uploads
+    4dac4fc4-3765-438a-aa11-7a945ddd9c1e: Riders # Riders
     6a76b087-e83a-4969-af86-d145e0cdb9aa: Home # Home
+    7b203c72-4689-4949-a474-2bc12e20370f: Rider # Rider
+    8a0ab42e-f590-4d4b-b01a-6a3419abca6c: 'Stories Listing' # Stories Listing
+    8a997549-cd1e-4dca-9c69-71fef641573b: 'Hero Image' # Hero Image
     023dd696-ecc4-4bc7-8742-eacf257623bc: craftcms # craftcms
+    6374f099-cd17-4faa-9b0d-4590cb98bcee: 'Stories Listing' # Stories Listing
+    112351b0-7ce3-4c9b-b395-25dc7ec11f14: 'Home Page' # Home Page
+    210547a8-61b6-4642-8986-022e7e15c3e9: Stories # Stories
     5943261d-2d0b-4d0e-8dae-6d6ac15c553d: Home # Home
+    06986050-d90f-4539-a9aa-857c78baf772: 'Full Name' # Full Name
+    a01a15cc-8b18-4666-afbf-c55618da4350: 'Riders Intro Content' # Riders Intro Content
     a1bb40cf-139e-4d42-98bd-70eee02b46b9: craftcms # craftcms
+    b1fc39bd-cfe2-4268-9f2b-a599f6ea4a2c: 'Hero Title' # Hero Title
+    b2a42c2d-5550-4f63-981e-8a87c0191600: Photo # Photo
+    bc0d93a9-955b-4ba2-abd1-478cb6e5fc45: Description # Description
     bd158d53-0918-4faf-b9a8-5567d986e9b8: Common # Common
+    c4aac1d2-5b3a-4474-8477-128505ad5998: Excerpt # Excerpt
+    d6e88fe9-2a06-48dd-bd59-40402ad9c604: Default # Default
+    e4b2967f-bfb2-47d0-8d79-fde4928a1800: Simple # Simple
+    f6dbd65d-3011-4ba9-a2f7-38726bea8658: 'Featured Story' # Featured Story
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
 system:
   edition: solo
   live: true

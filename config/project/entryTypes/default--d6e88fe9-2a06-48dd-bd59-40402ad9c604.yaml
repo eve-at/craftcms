@@ -1,5 +1,5 @@
 fieldLayouts:
-  a05623bb-3d74-4f02-aeb4-d2f4d4b6bb93:
+  e6075d34-73a6-4b05-9710-b8b648e8cd99:
     tabs:
       -
         elementCondition: null
@@ -27,93 +27,57 @@ fieldLayouts:
             tip: null
             title: null
             type: craft\fieldlayoutelements\entries\EntryTitleField
-            uid: b4a87d80-adef-4e12-8b20-3cf9e3c198f6
+            uid: 30420768-ea7b-4e68-ba45-bdfd2f095698
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: b1fc39bd-cfe2-4268-9f2b-a599f6ea4a2c # Hero Title
+            fieldUid: 1adba373-a6e0-4d86-8c84-35ff4bef8331 # Photos
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 42283b68-a636-4552-a573-5550e238796a
+            uid: 90edd38c-c516-428b-af0f-c2fb066ebc70
             userCondition: null
             warning: null
             width: 100
           -
             elementCondition: null
-            fieldUid: 8a997549-cd1e-4dca-9c69-71fef641573b # Hero Image
+            fieldUid: c4aac1d2-5b3a-4474-8477-128505ad5998 # Excerpt
             instructions: null
             label: null
             required: false
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 37955829-76ee-4a19-90dd-c45fc8afda29
+            uid: b42bd761-e56f-4b5e-b504-5996577fbf8f
             userCondition: null
             warning: null
             width: 100
-        name: Hero
-        uid: 833d416f-6d46-4eca-a8a5-21fe75d0cd60
+          -
+            elementCondition: null
+            fieldUid: 3b6fcc56-ab7c-4d22-89fb-29edcb6d9a17 # Rich Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 34c12a00-b4b9-4947-a1bd-65851acc4281
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 1af76a0d-9ca3-415e-b949-cc2493744e7c
         userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: f6dbd65d-3011-4ba9-a2f7-38726bea8658 # Featured Story
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 257c5fcd-ae13-41ca-ba47-1e8f1ea50228
-            userCondition: null
-            warning: null
-            width: 100
-        name: 'Featured Story'
-        uid: 47bf2067-f7a1-494d-acdb-22301d2803ee
-        userCondition: null
-      -
-        elementCondition: null
-        elements:
-          -
-            elementCondition: null
-            fieldUid: a01a15cc-8b18-4666-afbf-c55618da4350 # Riders Intro Content
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 5fdc69d2-88a0-4a27-be81-36eaa01136b7
-            userCondition: null
-            warning: null
-            width: 100
-          -
-            elementCondition: null
-            fieldUid: 4dac4fc4-3765-438a-aa11-7a945ddd9c1e # Riders
-            instructions: null
-            label: null
-            required: false
-            tip: null
-            type: craft\fieldlayoutelements\CustomField
-            uid: 890d7378-839b-48da-a527-3593c0cac39e
-            userCondition: null
-            warning: null
-            width: 100
-        name: Riders
-        uid: 2a2484ac-2884-4086-aa8f-5e722d9f420b
-        userCondition: null
-handle: home
-hasTitleField: false
-name: Home
-section: 5943261d-2d0b-4d0e-8dae-6d6ac15c553d # Home
+handle: default
+hasTitleField: true
+name: Default
+section: 210547a8-61b6-4642-8986-022e7e15c3e9 # Stories
 showStatusField: true
 slugTranslationKeyFormat: null
 slugTranslationMethod: site
 sortOrder: 1
-titleFormat: '{section.name|raw}'
+titleFormat: null
 titleTranslationKeyFormat: null
 titleTranslationMethod: site

@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: stories
+name: Stories
+propagationMethod: all
+siteSettings:
+  a1bb40cf-139e-4d42-98bd-70eee02b46b9: # craftcms
+    enabledByDefault: true
+    hasUrls: true
+    template: stories/_entry
+    uriFormat: 'stories/{slug}'
+type: channel
