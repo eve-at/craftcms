@@ -1,4 +1,4 @@
-dateModified: 1713191452
+dateModified: 1713192234
 email:
   fromEmail: admin@example.com
   fromName: craftcms
@@ -40,6 +40,7 @@ meta:
     b2a42c2d-5550-4f63-981e-8a87c0191600: Photo # Photo
     bc0d93a9-955b-4ba2-abd1-478cb6e5fc45: Description # Description
     bd158d53-0918-4faf-b9a8-5567d986e9b8: Common # Common
+    be164cdf-67fe-4c1f-ada9-fd4f9b7b060a: Footer # Footer
     c4aac1d2-5b3a-4474-8477-128505ad5998: Excerpt # Excerpt
     d6e88fe9-2a06-48dd-bd59-40402ad9c604: Default # Default
     e4b2967f-bfb2-47d0-8d79-fde4928a1800: Simple # Simple
