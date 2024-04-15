@@ -1,0 +1,24 @@
+fieldLayouts:
+  bdf5b66c-67fd-4d2b-aac7-2a7417367033:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a6be7d59-b455-4687-9d42-dcbe90dfb8d6 # Nav Links
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5e78bdd4-88bf-4cdc-a131-a3cdbaad4357
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: d4ac8e38-5302-4738-9b71-b6668386ef99
+        userCondition: null
+handle: header
+name: Header
+sortOrder: 1

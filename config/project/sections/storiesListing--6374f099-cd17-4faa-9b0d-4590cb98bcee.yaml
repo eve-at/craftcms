@@ -4,7 +4,7 @@ handle: storiesListing
 name: 'Stories Listing'
 propagationMethod: all
 siteSettings:
-  a1bb40cf-139e-4d42-98bd-70eee02b46b9: # craftcms
+  a1bb40cf-139e-4d42-98bd-70eee02b46b9: # Motoventure
     enabledByDefault: true
     hasUrls: true
     template: stories/index.twig
