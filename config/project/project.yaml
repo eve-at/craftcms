@@ -1,4 +1,4 @@
-dateModified: 1713178022
+dateModified: 1713183716
 email:
   fromEmail: admin@example.com
   fromName: craftcms
@@ -22,9 +22,11 @@ meta:
     8a0ab42e-f590-4d4b-b01a-6a3419abca6c: 'Stories Listing' # Stories Listing
     8a997549-cd1e-4dca-9c69-71fef641573b: 'Hero Image' # Hero Image
     023dd696-ecc4-4bc7-8742-eacf257623bc: craftcms # craftcms
+    85ba78c0-0d0c-4cae-85b0-c4c6c564b590: Default # Default
     6374f099-cd17-4faa-9b0d-4590cb98bcee: 'Stories Listing' # Stories Listing
     112351b0-7ce3-4c9b-b395-25dc7ec11f14: 'Home Page' # Home Page
     210547a8-61b6-4642-8986-022e7e15c3e9: Stories # Stories
+    2211875e-6d85-45b8-aefa-21eb1aa975f3: 'General pages' # General pages
     5943261d-2d0b-4d0e-8dae-6d6ac15c553d: Home # Home
     06986050-d90f-4539-a9aa-857c78baf772: 'Full Name' # Full Name
     a01a15cc-8b18-4666-afbf-c55618da4350: 'Riders Intro Content' # Riders Intro Content
