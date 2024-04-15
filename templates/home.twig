@@ -4,7 +4,7 @@
 
 {% set bgImage = entry.heroImage.one() %}
 
-<section class="hero" style="background-image: url('{{ bgImage.url }}')">
+<section class="hero" style="background-image: url('{{ bgImage.getUrl('hero') }}')">
     <div class="hero__content content-column">
 
     <h1>{{ entry.heroTitle }}</h1>
@@ -47,7 +47,7 @@
 
         {% for rider in entry.riders.all() %}
             <div class="flex-columns__item">
-                <img src="{{ rider.photo.one().url }}" alt="{{ rider.fullName }}" class="flex-columns__image">
+                <img src="{{ rider.photo.one().getUrl('avatar') }}" alt="{{ rider.fullName }}" class="flex-columns__image">
                 <h4>{{ rider.fullName }}</h4>
                 <p>{{ rider.description }}</p>
             </div>

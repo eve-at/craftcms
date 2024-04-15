@@ -1,4 +1,4 @@
-dateModified: 1713192234
+dateModified: 1713193833
 email:
   fromEmail: admin@example.com
   fromName: craftcms
@@ -14,6 +14,7 @@ fs:
 meta:
   __names__:
     1adba373-a6e0-4d86-8c84-35ff4bef8331: Photos # Photos
+    2b372250-4e60-468c-9113-3c9884ea3d2b: Avatar # Avatar
     3b6fcc56-ab7c-4d22-89fb-29edcb6d9a17: 'Rich Text' # Rich Text
     3bbb2de8-f0b4-4127-aceb-9e8f03cd70fe: Uploads # Uploads
     4a2f6d3e-7ba3-4151-ae10-5bd63ae152ee: Header # Header
@@ -26,9 +27,11 @@ meta:
     8a997549-cd1e-4dca-9c69-71fef641573b: 'Hero Image' # Hero Image
     023dd696-ecc4-4bc7-8742-eacf257623bc: craftcms # craftcms
     85ba78c0-0d0c-4cae-85b0-c4c6c564b590: Default # Default
+    153fa7d9-4bf0-4a99-b783-90008019ab58: Hero # Hero
     754fae9c-5275-4e9d-b58d-e1c17378fc68: 'Link Text' # Link Text
     6374f099-cd17-4faa-9b0d-4590cb98bcee: 'Stories Listing' # Stories Listing
     112351b0-7ce3-4c9b-b395-25dc7ec11f14: 'Home Page' # Home Page
+    197401d5-e3d5-46c8-9083-84877f88b0bc: 'Content Image' # Content Image
     210547a8-61b6-4642-8986-022e7e15c3e9: Stories # Stories
     2211875e-6d85-45b8-aefa-21eb1aa975f3: 'General pages' # General pages
     5943261d-2d0b-4d0e-8dae-6d6ac15c553d: Home # Home
@@ -36,6 +39,7 @@ meta:
     a01a15cc-8b18-4666-afbf-c55618da4350: 'Riders Intro Content' # Riders Intro Content
     a1bb40cf-139e-4d42-98bd-70eee02b46b9: Motoventure # Motoventure
     a6be7d59-b455-4687-9d42-dcbe90dfb8d6: 'Nav Links' # Nav Links
+    ae65a5c4-da7d-4e1d-8a36-ad6fa9edc210: Slider # Slider
     b1fc39bd-cfe2-4268-9f2b-a599f6ea4a2c: 'Hero Title' # Hero Title
     b2a42c2d-5550-4f63-981e-8a87c0191600: Photo # Photo
     bc0d93a9-955b-4ba2-abd1-478cb6e5fc45: Description # Description

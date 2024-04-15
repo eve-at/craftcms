@@ -6,12 +6,13 @@ instructions: null
 name: 'Rich Text'
 searchable: false
 settings:
-  availableTransforms: ''
+  availableTransforms:
+    - 197401d5-e3d5-46c8-9083-84877f88b0bc # Content Image
   availableVolumes:
     - 3bbb2de8-f0b4-4127-aceb-9e8f03cd70fe # Uploads
   ckeConfig: e4b2967f-bfb2-47d0-8d79-fde4928a1800 # Simple
   columnType: text
-  defaultTransform: null
+  defaultTransform: 197401d5-e3d5-46c8-9083-84877f88b0bc # Content Image
   enableSourceEditingForNonAdmins: true
   purifierConfig: null
   purifyHtml: true
