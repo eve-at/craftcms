@@ -4,12 +4,12 @@
 {% set pageTitle = entry.title %}
 
 {% block content %}
-
-<article class="section">
-    <div class="content-column content-column--narrow">
-        <h1 class="centered">{{ entry.title }}</h1>
-        {{ entry.richText }}
-    </div>
-</article>
-
+    {% cache using key "general-page" %}
+        <article class="section">
+            <div class="content-column content-column--narrow">
+                <h1 class="centered">{{ entry.title }}</h1>
+                {{ entry.richText }}
+            </div>
+        </article>
+    {% endcache %}
 {% endblock %}

@@ -1,60 +1,51 @@
 {% extends "index" %}
 
 {% block content %}
+    {% cache using key "home-page" %}
+        {% set bgImage = entry.heroImage.one() %}
 
-{% set bgImage = entry.heroImage.one() %}
+        <section class="hero" style="background-image: url('{{ bgImage.getUrl('hero') }}')">
+            <div class="hero__content content-column">
+                <h1>{{ entry.heroTitle }}</h1>
+            </div>
+        </section>
 
-<section class="hero" style="background-image: url('{{ bgImage.getUrl('hero') }}')">
-    <div class="hero__content content-column">
+        {% set featuredStory = entry.featuredStory.one() %}
 
-    <h1>{{ entry.heroTitle }}</h1>
-    
-    </div>
-</section>
+        {% if featuredStory %}
+            <section class="featured-story">
+                <div class="featured-story__flex content-column">
+                    <div class="featured-story__content">
+                        <h2>{{ featuredStory.title }}</h2>
+                        <p>{{ featuredStory.excerpt }}</p>
+                        <p>
+                            <a href="{{ featuredStory.url }}" class="cta-link">Discover the full story</a>
+                        </p>
+                    </div>
 
-{% set featuredStory = entry.featuredStory.one() %}
+                    <div class="featured-story__slider">
+                        {% include "components/slider" with {
+                            photos: featuredStory.photos.all()
+                        } %}
+                    </div>
+                </div>
+            </section>
+        {% endif %}
 
-{% if featuredStory %}
-    <section class="featured-story">
-        <div class="featured-story__flex content-column">
-
-            <div class="featured-story__content">
-                <h2>{{ featuredStory.title }}</h2>
+        <section class="section section--more-padding section--light section--angled-top">
+            <div class="content-column centered">
+                {{ entry.ridersIntroContent }}
                 
-                <p>{{ featuredStory.excerpt }}</p>
-
-                <p>
-                    <a href="{{ featuredStory.url }}" class="cta-link">Discover the full story</a>
-                </p>
+                <div class="flex-columns">
+                    {% for rider in entry.riders.all() %}
+                        <div class="flex-columns__item">
+                            <img src="{{ rider.photo.one().getUrl('avatar') }}" alt="{{ rider.fullName }}" class="flex-columns__image">
+                            <h4>{{ rider.fullName }}</h4>
+                            <p>{{ rider.description }}</p>
+                        </div>
+                    {% endfor %}
+                </div>
             </div>
-
-            <div class="featured-story__slider">
-                {% include "components/slider" with {
-                    photos: featuredStory.photos.all()
-                } %}
-            </div>
-        
-        </div>
-    </section>
-{% endif %}
-
-<section class="section section--more-padding section--light section--angled-top">
-    <div class="content-column centered">
-
-    {{ entry.ridersIntroContent }}
-    
-    <div class="flex-columns">
-
-        {% for rider in entry.riders.all() %}
-            <div class="flex-columns__item">
-                <img src="{{ rider.photo.one().getUrl('avatar') }}" alt="{{ rider.fullName }}" class="flex-columns__image">
-                <h4>{{ rider.fullName }}</h4>
-                <p>{{ rider.description }}</p>
-            </div>
-        {% endfor %}
-        
-    </div>
-    
-    </div>
-</section>
+        </section>
+    {% endcache %}
 {% endblock %}

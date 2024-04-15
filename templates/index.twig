@@ -55,12 +55,14 @@
 
   </div>
 
-  <footer class="footer">
-    <div class="content-column centered">
-      {{ footer.richText }}
-    </div>
-  </footer>
-
+  {% cache globally using key "footer" %}
+    <footer class="footer">
+      <div class="content-column centered">
+        {{ footer.richText }}
+      </div>
+    </footer>
+  {% endcache %}
+  
   <script src="{{ siteUrl }}static/js/scripts.js"></script>
 
 </body>
